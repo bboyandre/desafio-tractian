@@ -1,0 +1,31 @@
+.because {
+    h1 {
+        text-align: center;
+        padding-bottom: 40px;
+        
+    }
+    .btn-agora {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .cards {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .card {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: solid 1px aqua;
+            border-radius: 10px;
+            width: 200px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        }
+    }
+}
