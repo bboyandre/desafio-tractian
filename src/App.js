@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Monitoramento from './components/Monitoramento';
-import Header from './components/Header';
-import SlideMarcas from './components/SlideMarcas';
-import Because from './components/Because';
+import Monitoramento from './components/Monitoramento.js';
+import Header from './components/Header.js';
+import SlideMarcas from './components/SlideMarcas.js';
+import Because from './components/Because.js';
 
 const App = ()=> {
   return (
