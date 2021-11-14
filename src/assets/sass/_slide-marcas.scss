@@ -1,0 +1,12 @@
+.slide-marcas {
+    display: flex;
+    overflow: hidden;
+    .slide-row {
+        padding: 5px;
+        
+        img {
+            width: 150px;
+            height: 80px;
+        }
+    }
+}
