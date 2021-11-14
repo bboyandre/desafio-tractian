@@ -1,31 +1,91 @@
 .because {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
     h1 {
+        font-size: 30px;
         text-align: center;
-        padding-bottom: 40px;
-        
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        line-height: 2.5rem;
+        font-size: 2.25rem;     
     }
+
+    .row-agora {
+        display: flex;
+        justify-content: center;
+    }
+
     .btn-agora {
-        text-align: center;
-        padding-top: 40px;
+        background-color: rgb(15, 169, 71);
+        // border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        color: white;
+        font-weight: 500;
+        // direction: none;
+
+        // -webkit-user-drag: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        // display: inline-block;
+        line-height: normal;
+        user-select: none;
+        vertical-align: middle;
+        // background-color: #e6e6e6;
+        border: transparent;
+        border-radius: 5px;
+        // color: rgba(0,0,0,.8);
+        font-size: 100%;
+        // padding: .5em 1em;
+        text-decoration: none;
     }
     .cards {
 
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding: 10px 60px 10px 60px;
         .card {
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            border: solid 1px aqua;
-            border-radius: 10px;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            margin: 0px 20px 40px 20px;
+            // border-color: rgba(96,165,250,0.5);
+            border: 1px solid rgba(96,165,250,0.5);
+            
+            // border: solid 1px aqua;
+            border-radius: .375rem;
             width: 200px;
             height: 250px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            align-items: flex-start;
+
+            h3 {
+                color: rgba(63,63,70,0.9);
+                opacity: 1;
+            }
+
+            p {
+                font-size: .875rem;
+                line-height: 1.25rem;
+                text-align: left;
+                font-weight: 300;
+                color: rgba(63,63,70,0.9);
+                opacity: 1;
+            }
+
+            .img-because {
+                width: 80px;
+            }
             
+        }
+
+        .card:hover {
+            margin-top: -10px;
+            transition: all ease 0.2s;
         }
     }
 }

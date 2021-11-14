@@ -16,7 +16,7 @@ const Monitoramento = ()=> {
                         </p>
                     
                     <ul className="row-btn">
-                        <li className="btn-demonstracao">
+                        <li className="">
                             <button className="btn-demonstracao">
                                 Demonstração
                             </button>
