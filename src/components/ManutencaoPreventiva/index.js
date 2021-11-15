@@ -15,9 +15,18 @@ const ManutecaoPreventiva = ()=> {
     const sensorPlug = ()=> {
         return (
             <article>
-                <h1>
-                    Sensor Plug & Play
-                </h1>
+                {/* <h3>
+                    O Software de manutenção dos seus sonhos
+                </h3> */}
+                <div className="img-dinamico">
+                    <img className="img-sensor" src="https://imgix.tractian.com/images/cole-o-sensor.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                </div>
+                <h4>
+                    Tecnologia IoT avançada para conectar seus ativos
+                </h4>
+                {/* <p>
+                Use procedimentos online para organizar checklists e inspeções. Centralize a rotina do seu time e potencialize as atividades de cada colaborador através das automações e métricas.
+                </p> */}
             </article>
         )
     }
@@ -25,9 +34,15 @@ const ManutecaoPreventiva = ()=> {
     const monitoramentoOnline = ()=> {
         return (
             <article>
-                <h1>
+                {/* <h3>
                     Monitoramento Online
-                </h1>
+                </h3> */}
+                <div className="img-dinamico">
+                    <img className="img-sensor" src="https://imgix.tractian.com/images/features-header.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                </div>
+                <h4>
+                    Plataforma que trabalha por você
+                </h4>
             </article>
         )
     }
@@ -35,9 +50,15 @@ const ManutecaoPreventiva = ()=> {
     const gestaoDeAtivos = ()=> {
         return (
             <article>
-                <h1>
+                {/* <h3>
                     Gestão de Ativos
-                </h1>
+                </h3> */}
+                <div className="img-dinamico">
+                    <img className="img-sensor" src="https://imgix.tractian.com/trac-os/automacoes-e-metricas.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                </div>
+                <h4>
+                    O Software de manutenção dos seus sonhos
+                </h4>
             </article>
         )
     }
@@ -69,7 +90,7 @@ const ManutecaoPreventiva = ()=> {
                 </div>
             </div>
             <div className="col-6 box-manutencao">
-                <div className="">
+                {/* <div className="">
                     <h3>
                         manutenção preditiva descomplicada
                     </h3>
@@ -78,23 +99,23 @@ const ManutecaoPreventiva = ()=> {
                 <div>
                     <ul>
                         <li>
-                            {/* <span>01 </span>  */}
+                            
                             Sensor Plug & Play
                         </li>
                         <li>
-                            {/* <span>02 </span>  */}
+                           
                             Monitoramento Online
                         </li>
                         <li>
-                            {/* <span>03 </span>  */}
+                           
                             Gestão de Ativos
                         </li>
                     </ul>
-                    <div>
-                        {dinamico == 1 ? sensorPlug():''}
-                        {dinamico == 2 ? monitoramentoOnline():''}
-                        {dinamico == 3 ? gestaoDeAtivos():''}
-                    </div>
+                </div> */}
+                <div>
+                    {dinamico == 1 ? sensorPlug():''}
+                    {dinamico == 2 ? monitoramentoOnline():''}
+                    {dinamico == 3 ? gestaoDeAtivos():''}
                 </div>
             </div>
         </section>

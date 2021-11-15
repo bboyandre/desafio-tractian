@@ -20,6 +20,25 @@
             color: rgba(24,24,27,var(--tw-text-opacity));
             letter-spacing: .025em;
             font-weight: inherit;
+
+            .img-sensor {
+                width: 400px;
+            }
+
+            .img-dinamico {
+                display: flex;
+                align-items: center;
+            }
+
+            h4 {
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            
+
             h3 {
                 --tw-text-opacity: 1;
                 color: rgba(37,99,235,var(--tw-text-opacity));
