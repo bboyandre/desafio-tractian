@@ -1,0 +1,75 @@
+.manutencao {
+    // width: 100vh;
+    // height: 80vh;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    font-family: Poppins,sans-serif;
+
+    // .col-6 {
+        
+        .box-manutencao {
+            display: flex;
+            // align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 4rem;
+            line-height: 1.25;
+            font-size: 2.25rem;
+            --tw-text-opacity: 1;
+            color: rgba(24,24,27,var(--tw-text-opacity));
+            letter-spacing: .025em;
+            font-weight: inherit;
+            h3 {
+                --tw-text-opacity: 1;
+                color: rgba(37,99,235,var(--tw-text-opacity));
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 1.75rem;
+                font-size: 1.125rem;
+                margin-bottom: 1rem;
+                }
+    
+            h1 {
+                margin-bottom: 4rem;
+                line-height: 1.25;
+                font-size: 2.25rem;
+                padding-right: 150px;
+            }
+            
+            li {
+                --tw-text-opacity: 1;
+                color: rgba(161,161,170,var(--tw-text-opacity));
+                display: flex;
+                margin-top: .75rem;
+                margin-bottom: .75rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 1.75rem;
+                align-items: center;
+                cursor: pointer;
+                
+                &::before {
+                    content: '●' + ' ';
+                    margin-right: 5px;
+                    --tw-ring-inset: var(--tw-empty, );
+                    --tw-ring-offset-width: 0px;
+                    --tw-ring-offset-color: #fff;
+                    --tw-ring-offset-shadow: 0 0 #0000;
+                    --tw-ring-shadow: 0 0 #0000;
+                    color: rgba(59,130,246,0.5);
+                }
+            }
+
+            li:hover {
+                color: rgb(53, 53, 58);
+            }
+        }
+
+    // }
+
+    .teste-borda {
+        border: solid 1px green;
+    }
+
+}

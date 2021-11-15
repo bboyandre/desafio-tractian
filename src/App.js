@@ -4,6 +4,7 @@ import Monitoramento from './components/Monitoramento';
 import Header from './components/Header';
 import SlideMarcas from './components/SlideMarcas';
 import Because from './components/Because';
+import ManutencaoPreventiva from './components/ManutencaoPreventiva';
 
 const App = ()=> {
   return (
@@ -13,6 +14,7 @@ const App = ()=> {
         <Monitoramento />
         <SlideMarcas />
         <Because />
+        <ManutencaoPreventiva />
       </div>
     </>
   );
