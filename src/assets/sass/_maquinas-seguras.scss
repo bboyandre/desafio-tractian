@@ -1,0 +1,69 @@
+.maquinas-seguras {
+    font-family: Poppins,sans-serif;
+    h1 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        --tw-text-opacity: 1;
+        color: rgba(24,24,27,var(--tw-text-opacity));
+        letter-spacing: -.025em;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: inherit;
+    }
+
+    .traco-horizontal {
+        opacity: .8;
+        padding-top: 0;
+        padding-bottom: 0;  
+        --tw-gradient-to: #1e40af;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        width: 16rem;
+        height: .25rem;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        --tw-gradient-from: #2563eb;
+        --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(37,99,235,0));
+    }
+    
+    .percentuais {
+        display: flex;
+        justify-content: space-between;
+        // padding:px;
+        .percentual {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            --tw-bg-opacity: 1;
+            background-color: rgba(255,255,255,var(--tw-bg-opacity));
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            h6 {
+                --tw-text-opacity: 1;
+                color: rgba(24,24,27,var(--tw-text-opacity));
+                font-weight: 700;
+                font-size: 2.25rem;
+                line-height: 2.5rem;
+                text-align: center;
+            }
+
+            p {
+                --tw-text-opacity: 1;
+                color: rgba(63,63,70,var(--tw-text-opacity));
+                letter-spacing: .1em;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: .875rem;
+                line-height: 1.25rem;
+                margin-top: 1.5rem;
+                margin-left: .75rem;
+                margin-right: .75rem;
+                text-align: center;
+            }
+        }
+    }
+}

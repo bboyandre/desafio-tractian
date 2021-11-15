@@ -1,0 +1,52 @@
+.melhore {
+    font-family: Poppins, sans-serif;
+
+    article {
+        h1 {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            --tw-text-opacity: 1;
+            color: rgba(24,24,27,var(--tw-text-opacity));
+            letter-spacing: -.025em;
+            text-align: center;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: inherit;
+        }
+
+        p{
+            --tw-text-opacity: 1;
+            color: rgba(82,82,91,var(--tw-text-opacity));   
+            text-align: center;
+            margin: 0;
+        }
+
+        form {
+            padding: 1.5rem;
+            --tw-gradient-to: #1e40af;
+            --tw-gradient-from: #2563eb;
+            --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(37,99,235,0));
+            background-image: linear-gradient(to left,var(--tw-gradient-stops));
+            border-radius: .75rem;
+            width: 100%;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            label {
+                --tw-text-opacity: 1;
+                color: rgba(255,255,255,var(--tw-text-opacity));
+            }
+            input {
+                padding: .5rem;
+                border-radius: .375rem;
+                line-height: inherit;
+                color: inherit;
+                font-family: inherit;
+                font-size: 100%;
+                line-height: 1.15;
+                margin: 0;
+            }
+        }
+    }
+}

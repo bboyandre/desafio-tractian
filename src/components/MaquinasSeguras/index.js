@@ -6,20 +6,26 @@ const MaquinasSeguras = ()=> {
             <div>
                 <h1>Suas máquinas mais seguras.</h1>
             </div>
-            <div>
-                traço
+            <div className="traco-horizontal">
+                
             </div>
-            <div className="percentual">
-                <div>
-                    <p>90%</p>
+            <div className="percentuais">
+                <div className="percentual">
+                    <h6>
+                        90%
+                    </h6>
                     <p>De assertividade dos Insights gerados pela plataforma.</p>
                 </div>
-                <div>
-                    <p>45%</p>
+                <div className="percentual">
+                    <h6>
+                        45%
+                    </h6>
                     <p>Aumento de confiabilidade das máquinas com Sistema Tractian.</p>
                 </div>
-                <div>
-                    <p>30%</p>
+                <div className="percentual">
+                    <h6>
+                        30%
+                    </h6>
                     <p>Redução das ocorrências de última hora na manutenção.</p>
                 </div>
             </div>

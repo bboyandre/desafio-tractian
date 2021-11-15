@@ -50,8 +50,8 @@ const Header = ()=> {
                         <li class="">
                             <a class="" href="#">PT<MdKeyboardArrowDown /></a>
                         </li>
-                        <li class="">
-                            <a class="" href="#">Demonstração</a>
+                        <li class="btn-demonstracao">
+                            <a class="btn-demonstracao" href="#">Demonstração</a>
                         </li>
                         {/* <li class="">
                         <a class="" href="#">
