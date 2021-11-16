@@ -78,15 +78,15 @@ const ManutecaoPreventiva = ()=> {
                     </div>
                     <div>
                         <ul>
-                            <li className={dinamico == 1 ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.sensor)}>
+                            <li className={dinamico === enumeracao.sensor ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.sensor)}>
                                 {/* <span>01 </span>  */}
                                 Sensor Plug & Play
                             </li>
-                            <li className={dinamico == 2 ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.monitoramento)}>
+                            <li className={dinamico === enumeracao.monitoramento ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.monitoramento)}>
                                 {/* <span>02 </span>  */}
                                 Monitoramento Online
                             </li>
-                            <li className={dinamico == 3 ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.gestao)}>
+                            <li className={dinamico === enumeracao.gestao ? 'lista-atual' : ''} onClick={()=> setDinamico(enumeracao.gestao)}>
                                 {/* <span>03 </span>  */}
                                 Gestão de Ativos
                             </li>
