@@ -11,14 +11,14 @@ import Melhore from './components/Melhore';
 const App = ()=> {
   return (
     <>
-      <div style={{ backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzzE50TSw-_9QkR9ZMeZ6A68fLMvpqDPk4g&usqp=CAU);" }}>
+      <div>
         <Header />
         <Monitoramento />
         <SlideMarcas />
         <Because />
-        <ManutencaoPreventiva />
+        {/* <ManutencaoPreventiva />
         <MaquinasSeguras />
-        <Melhore />
+        <Melhore /> */}
       </div>
     </>
   );

@@ -51,18 +51,26 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 10px 60px 10px 60px;
+        flex-wrap: wrap;
         .card {
             padding-top: 3rem;
             padding-bottom: 3rem;
             padding-left: 2rem;
             padding-right: 2rem;
-            margin: 0px 20px 40px 20px;
+            // margin: 0px 20px 40px 20px;
             // border-color: rgba(96,165,250,0.5);
             border: 1px solid rgba(96,165,250,0.5);
             
             // border: solid 1px aqua;
             border-radius: .375rem;
-            width: 200px;
+            width: calc(25% - 110px);
+
+            @media(max-width: 950px) {
+                width: calc(50% - 110px);
+            }
+
+            margin-bottom: 20px;
+
             height: 250px;
             display: flex;
             flex-direction: column;
