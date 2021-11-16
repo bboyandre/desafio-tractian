@@ -1,13 +1,31 @@
 .monitoramento {
+    position: relative;
     color: white;
-    height: 85vh;
     display: flex;
     padding: 50px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     font-family: Poppins,sans-serif;
-    background-image: url(../img/blue_fundo.jpg);
-    // background-image: url('https://imgix.tractian.com/images/ondas.svg');
+    background-image: linear-gradient(to left,#2563eb,#1e3a8a);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .monitoramento-animacao {
+        width: 100%;
+    }
+
+    .monitoramento-container {
+        max-width: 1536px;
+        width: 100%;
+        display: flex;
+    }
+
+    .ondas {
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+    }
     
     .box-monitoramento {
         height: 38vh;

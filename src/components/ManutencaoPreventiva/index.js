@@ -14,9 +14,9 @@ const ManutecaoPreventiva = ()=> {
 
     const sensorPlug = ()=> {
         return (
-            <article>
+            <article className="conteudo-dinamico">
                 <div className="img-dinamico">
-                    <img className="img-sensor" src="https://imgix.tractian.com/images/cole-o-sensor.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                    <img className="img-sensor" style={{ maxWidth: "400px"}} src="https://imgix.tractian.com/images/cole-o-sensor.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
                 </div>
                 <div>
                     <h4>
@@ -32,9 +32,9 @@ const ManutecaoPreventiva = ()=> {
 
     const monitoramentoOnline = ()=> {
         return (
-            <article>
+            <article className="conteudo-dinamico">
                 <div className="img-dinamico">
-                    <img className="img-sensor" src="https://imgix.tractian.com/images/features-header.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                    <img className="img-sensor" style={{ maxWidth: "400px"}} src="https://imgix.tractian.com/images/features-header.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
                 </div>
                 <div>
                     <h4>
@@ -50,10 +50,10 @@ const ManutecaoPreventiva = ()=> {
 
     const gestaoDeAtivos = ()=> {
         return (
-            <article>
-                    <div className="img-dinamico">
-                        <img className="img-sensor" src="https://imgix.tractian.com/trac-os/automacoes-e-metricas.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
-                    </div>
+            <article className="conteudo-dinamico">
+                <div className="img-dinamico">
+                    <img className="img-sensor" style={{ maxWidth: "100%"}} src="https://imgix.tractian.com/trac-os/automacoes-e-metricas.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+                </div>
                 <div>
                     <h4>
                         O Software de manutenção dos seus sonhos
@@ -68,8 +68,8 @@ const ManutecaoPreventiva = ()=> {
 
     return (
         <section className="manutencao">
-            <div className="col-6">
-                <div className="box-manutencao padding-manutencao">
+            <div className="manutencao-container">
+                <div className="box-manutencao">
                     <div className="">
                         <h3>
                             manutenção preditiva descomplicada
@@ -93,9 +93,8 @@ const ManutecaoPreventiva = ()=> {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div className="col-6 " style={{ display: 'flex', justifyContent: 'end' }}>
-                <div className="box-manutencao" style={{ width: "600px"}}>
+                
+                <div className="box-manutencao">
                     {dinamico == 1 ? sensorPlug():''}
                     {dinamico == 2 ? monitoramentoOnline():''}
                     {dinamico == 3 ? gestaoDeAtivos():''}

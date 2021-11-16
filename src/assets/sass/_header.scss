@@ -6,7 +6,17 @@ header {
     position: fixed;
     font-family: Poppins,sans-serif;
     font-weight: 500;
+    width: 100%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+    z-index: 3;
 
+    .header-container {
+        max-width: 1536px;
+        width: 100%;
+    }
 
     .item-list:hover {
         color: rgba(74,222,128,0.5);

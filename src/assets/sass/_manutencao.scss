@@ -1,18 +1,30 @@
 .manutencao {
-    width: 100%;
-    height: 100vh;
+    position: relative;
+    overflow: hidden;
     display: flex;
-    // padding: 50px;
+    padding: 50px;
     flex-direction: row;
     font-family: Poppins,sans-serif;
 
-        .box-manutencao.padding-manutencao {
-            padding: 150px;
+        .manutencao-container {
+            max-width: 1536px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .conteudo-dinamico {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
         }
         
         .box-manutencao {
             display: flex;
             justify-content: center;
+            // align-items: ;
             flex-direction: column;
             margin-bottom: 4rem;
             line-height: 1.25;
@@ -21,16 +33,25 @@
             color: rgba(24,24,27,var(--tw-text-opacity));
             letter-spacing: .025em;
             font-weight: inherit;
-            // padding: 50px;
+            max-width: 600px;
+            width: 50%;
+            height: 600px;
+            margin: 0 auto;
+            // overflow: hidden;
+
+            @media(max-width: 950px) {
+                width: 100%;
+            }
 
 
             .img-sensor {
-                width: 400px;
+                max-width: 100% ;
             }
 
             .img-dinamico {
                 display: flex;
                 justify-content: center;
+                // padding-bottom: 40px;
             }
 
             h4 {
@@ -99,9 +120,5 @@
                 // font-weight: 400;
             }
         }
-
-    .teste-borda {
-        border: solid 1px green;
-    }
 
 }
