@@ -42,7 +42,9 @@ const Header = ()=> {
                     <div class="">
                         <ul class="">
                             <li>
-                                <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                                <a href="#" >
+                                    <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                                </a>
                             </li>
                             <li className="item-list">
                                 <span className="item-list" href="#">Conheça o Produto<MdKeyboardArrowDown /></span>
@@ -131,7 +133,7 @@ const Header = ()=> {
                                 </ul>
                             </li>
                             <li className="btn-demonstracao">
-                                <a href="#">Demonstração</a>
+                                <a href="https://tractian.com/">Demonstração</a>
                             </li>
                             {/* <li class="">
                             <a class="" href="#">

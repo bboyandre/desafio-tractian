@@ -17,8 +17,8 @@ const App = ()=> {
         <SlideMarcas />
         <Porque />
         <ManutencaoPreventiva />
-        {/* <MaquinasSeguras />
-        <Melhore /> */}
+        <MaquinasSeguras />
+        <Melhore />
       </div>
     </>
   );
