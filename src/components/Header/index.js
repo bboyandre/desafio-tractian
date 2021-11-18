@@ -4,19 +4,7 @@ import { useState, useEffect } from "react";
 
 const Header = ()=> {
 
-    const [blackHeader, setBlackHeaader] = useState(false);
-    const [lista, setLista] = useState(false);
-
-    const enumeracaoHeader = {
-        'conheca': 1,
-        'sobre': 2,
-        'materiais': 3,
-        'pt': 4
-    }
-
-    const headerLista = ()=> {
-
-    }
+    const [blackHeader, setBlackHeaader] = useState(false);   
     
     useEffect(()=> {
         const scrollBackgroundColor = ()=> {

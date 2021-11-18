@@ -7,6 +7,8 @@ import Porque from './components/Porque';
 import ManutencaoPreventiva from './components/ManutencaoPreventiva';
 import MaquinasSeguras from './components/MaquinasSeguras';
 import Melhore from './components/Melhore';
+import Footer from './components/Footer';
+
 
 const App = ()=> {
   return (
@@ -19,6 +21,7 @@ const App = ()=> {
         <ManutencaoPreventiva />
         <MaquinasSeguras />
         <Melhore />
+        <Footer />
       </div>
     </>
   );
