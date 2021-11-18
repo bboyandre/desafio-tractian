@@ -3,7 +3,7 @@ import React from "react";
 const Melhore = ()=> {
     return (
         <section className="melhore">
-            <article>
+            <div className="melhore-container">
                 <h1>
                     Melhore os seus processos de manutenção
                 </h1>
@@ -20,19 +20,29 @@ const Melhore = ()=> {
                     <label>Telefone</label>
                     <input placeholder="(xx) xxxx-xxxx"/>
                     <label>Quantidade de pontos monitorados:</label>
-                    <input type="checkbox"/>
-                    <label>10 a 20</label>
-                    <input type="checkbox"/>
-                    <label>21 a 30</label>
-                    <input type="checkbox"/>
-                    <label>31 a 50</label>
-                    <input type="checkbox"/>
-                    <label>Mais de 50</label>
+                    <ul>
+                        <li>
+                            <input type="checkbox"/>
+                            <label>10 a 20</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"/>
+                            <label>21 a 30</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"/>
+                            <label>31 a 50</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"/>
+                            <label>Mais de 50</label>
+                        </li>
+                    </ul>
                     <div>
-                        <button>Enviar</button>
+                        <button className="btn-enviar">Enviar</button>
                     </div>
                 </form>
-            </article>
+            </div>
         </section>
     )
 }
