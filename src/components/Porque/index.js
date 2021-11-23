@@ -1,5 +1,4 @@
 import React from "react";
-import { GrHostMaintenance } from 'react-icons/gr';
 
 const Because = ()=> {
     return (

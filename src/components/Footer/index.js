@@ -107,21 +107,21 @@ const Footer = ()=> {
                         CONECTAR-SE COM A TRACTIAN
                     </h3>
                     <div className="conectar">
-                        <a href="https://www.linkedin.com/company/tractian/" target="_blank" >
+                        <a href="https://www.linkedin.com/company/tractian/" target="_blank" rel="noreferrer" >
                             <img src="img/linkedin.png" alt="LINKEDIN" />
                         </a>
-                        <a href="https://www.facebook.com/tractian" target="_blank">
+                        <a href="https://www.facebook.com/tractian" target="_blank" rel="noreferrer" >
                             <img src="img/facebook.png" alt="FACEBOOK" />
                         </a>
-                        <a href="https://www.instagram.com/tractian/" target="_blank" >
+                        <a href="https://www.instagram.com/tractian/" target="_blank" rel="noreferrer" >
                             <img src="img/instagram.png" alt="INSTAGRAM" />
                         </a>
-                        <a href="https://www.youtube.com/c/TRACTIAN" target="_blank" >
+                        <a href="https://www.youtube.com/c/TRACTIAN" target="_blank" rel="noreferrer" >
                             <img src="img/youtube.png" alt="YOUTUBE" />
                         </a>
                     </div>
                     <div>
-                        <a href="#" >
+                        <a href="/" >
                             <p>
                                 © Tractian Tecnologia Ltda
                             </p>
