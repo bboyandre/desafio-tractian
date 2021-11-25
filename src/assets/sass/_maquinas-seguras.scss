@@ -1,6 +1,8 @@
 .maquinas-seguras {
     position: relative;
     font-family: Poppins,sans-serif;
+    display: flex;
+    justify-content: center;
 
     .maquinas-seguras-container {
         max-width: 1536px;
