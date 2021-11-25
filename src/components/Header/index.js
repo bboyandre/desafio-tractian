@@ -25,16 +25,14 @@ const Header = ()=> {
         <header className={blackHeader ? "black":""}>
             <div className="header-container">
                 <nav class="">
-                    <div className="" >
-                    </div>
                     <div class="">
                         <ul class="">
-                            <li>
-                                <a href="/" >
-                                    <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
-                                </a>
-                            </li>
                             <ul>
+                                <li>
+                                    <a href="/" >
+                                        <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                                    </a>
+                                </li>
                                 <li className="item-list">
                                     <span className="item-list" href="/">Conheça o Produto<MdKeyboardArrowDown /></span>
                                     <ul class="list-content">
