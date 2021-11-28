@@ -13,31 +13,63 @@ header {
     justify-content: center;
     z-index: 3;
 
+    
     .header-container {
-        max-width: 1536px;
-        width: 100%;
-        margin-left: 50px;
-        margin-right: 50px;
+      max-width: 1536px;
+      width: 100%;
+      margin-left: 50px;
+      margin-right: 50px;
     }
-
+    
     .item-list {
-        color: white;
+      color: white;
     }
 
     .item-list:hover {
         color: rgba(74,222,128,0.5);
     }
 
-    nav {
+    .menu-mobile {
+      @media (min-width: 1024px) {
+        display: none;
+      }
+      li div {
+        border-radius: .375rem;
+        padding: .5rem;
+        cursor: pointer;
+        background-color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      li div:hover {
+        background-color:darkgrey;
+      }
+      ul ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      li.item-list {
+        display: none;
+
+      }
+    }
+
+    .logo {
+        width: 180px;
+    }
+    .menu-desktop {
+      
+      ul ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
         
-        .logo {
-            width: 180px;
-        }
-        
-        ul ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+
+            @media (max-width: 1023px) {
+              display: none;
+            }
 
             .btn-demonstracao {
                 background-color: rgb(15, 169, 71);
@@ -106,6 +138,7 @@ header {
         }
     }
 }
+
 .black {
     background-color: rgba(30,58,138,1);
     transition: all ease 0.5s;

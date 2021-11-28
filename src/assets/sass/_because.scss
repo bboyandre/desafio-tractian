@@ -75,8 +75,12 @@
             width: calc(25% - 110px);
             min-width: 120px;
 
-            @media(max-width: 950px) {
+            @media(max-width: 1023px) {
                 width: calc(50% - 110px);
+            }
+
+            @media (max-width: 491px) {
+              width: 100%;
             }
 
             margin-bottom: 20px;
