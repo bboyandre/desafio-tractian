@@ -12,12 +12,14 @@
 
     .monitoramento-animacao {
         width: 100%;
+        min-width: 200px;
     }
 
     .monitoramento-container {
         max-width: 1536px;
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .ondas {
@@ -35,6 +37,7 @@
         // align-items: center;
         flex-direction: column;
         // border: 1px solid red;
+        
     }
     
 
@@ -79,6 +82,9 @@
     
     .col-6 {
         width: 50%;
+        @media (max-width: 1023px) {
+          width: 100%;
+        }
     }
     
     h1 {
