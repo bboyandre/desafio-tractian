@@ -6,6 +6,15 @@ import { useState, useEffect } from "react";
 const Header = ()=> {
 
     const [blackHeader, setBlackHeaader] = useState(false);   
+    const [menu, setMenu] = useState(false);
+
+    
+      const menuMobile = ()=> {
+        setMenu(main => main = !main);
+        alert(menu);
+  
+      }
+
     
     useEffect(()=> {
         const scrollBackgroundColor = ()=> {
@@ -149,7 +158,13 @@ const Header = ()=> {
                                         <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
                                     </a>
                                 </li>
-                                <li className="item-list">
+                                <li>
+                                  <div onClick={menuMobile}>
+                                    <GiHamburgerMenu/>
+                                  </div>
+                                </li>
+                                {/* https://tractian.com/images/logotractianazul.svg*/}
+                                {/* <li className="item-list">
                                     <span className="item-list" href="/">Conheça o Produto<MdKeyboardArrowDown /></span>
                                     <ul class="list-content">
                                         <li>
@@ -163,11 +178,11 @@ const Header = ()=> {
                                         </li>
                                         <li>
                                             <a href="https://tractian.com/planos">Planos</a>
-                                        </li>
+                                        </li> */}
                                         {/* <li>
                                             <a href="#">Agende uma Demonstração</a>
                                         </li> */}
-                                    </ul>
+                                    {/* </ul>
                                 </li>
                                 <li className="item-list">
                                     <span className="item-list" href="/">Sobre Nós<MdKeyboardArrowDown /></span>
@@ -188,8 +203,8 @@ const Header = ()=> {
                                             <a href="https://tractian.com/imprensa">Imprensa</a>
                                         </li>
                                     </ul>
-                                </li>
-                                <li className="item-list">
+                                </li> */}
+                                {/* <li className="item-list">
                                     <span className="item-list" href="/">Materiais Gratuitos<MdKeyboardArrowDown /></span>
                                     <ul class="list-content">
                                         <li>
@@ -200,7 +215,7 @@ const Header = ()=> {
                                         </li>
                                         <li>
                                             <a href="https://tractian.com/calculadora">Calculadora ROI</a>
-                                        </li>
+                                        </li> */}
                                         {/* <li>
                                             <a href="#">ÚLTIMOS MATERIAIS</a>
                                             <a href="#">Em busca do downtime zero.</a>
@@ -209,7 +224,7 @@ const Header = ()=> {
 
                                         </li> */}
                                         
-                                    </ul>
+                                    {/* </ul>
                                 </li>
                                 <li className="item-list">
                                     <a className="item-list" href="https://tractian.com/blog">Blog</a>
@@ -237,13 +252,9 @@ const Header = ()=> {
                                 </li>
                                 <li className="item-list btn-demonstracao">
                                     <a href="https://tractian.com/">Demonstração</a>
-                                </li>
+                                </li> */}
 
-                                <li>
-                                  <div>
-                                    <GiHamburgerMenu/>
-                                  </div>
-                                </li>
+                               
                                 {/* <li class="">
                                 <a class="" href="#">
                                     
