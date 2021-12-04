@@ -1,6 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { GrClose } from 'react-icons/gr';
 import { useState, useEffect } from "react";
 
 const Header = ()=> {
@@ -10,9 +11,7 @@ const Header = ()=> {
 
     
       const menuMobile = ()=> {
-        setMenu(main => main = !main);
-        alert(menu);
-  
+        setMenu(main => main = !main);  
       }
 
     
@@ -163,8 +162,16 @@ const Header = ()=> {
                                     <GiHamburgerMenu/>
                                   </div>
                                 </li>
-                                {/* https://tractian.com/images/logotractianazul.svg*/}
-                                {/* <li className="item-list">
+                                <div className={menu ? "aberto" : "fechado"}>
+                                <li>
+                                  <a href="/">
+                                    <img src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
+                                  </a>
+                                </li>
+                                <li onClick={menuMobile}>
+                                  <GrClose style={{ cursor: "pointer" }} color="white" />
+                                </li>
+                                <li className="item-list">
                                     <span className="item-list" href="/">Conheça o Produto<MdKeyboardArrowDown /></span>
                                     <ul class="list-content">
                                         <li>
@@ -178,11 +185,11 @@ const Header = ()=> {
                                         </li>
                                         <li>
                                             <a href="https://tractian.com/planos">Planos</a>
-                                        </li> */}
-                                        {/* <li>
+                                        </li>
+                                        <li>
                                             <a href="#">Agende uma Demonstração</a>
-                                        </li> */}
-                                    {/* </ul>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li className="item-list">
                                     <span className="item-list" href="/">Sobre Nós<MdKeyboardArrowDown /></span>
@@ -203,8 +210,8 @@ const Header = ()=> {
                                             <a href="https://tractian.com/imprensa">Imprensa</a>
                                         </li>
                                     </ul>
-                                </li> */}
-                                {/* <li className="item-list">
+                                </li>
+                                <li className="item-list">
                                     <span className="item-list" href="/">Materiais Gratuitos<MdKeyboardArrowDown /></span>
                                     <ul class="list-content">
                                         <li>
@@ -215,16 +222,16 @@ const Header = ()=> {
                                         </li>
                                         <li>
                                             <a href="https://tractian.com/calculadora">Calculadora ROI</a>
-                                        </li> */}
-                                        {/* <li>
+                                        </li>
+                                        <li>
                                             <a href="#">ÚLTIMOS MATERIAIS</a>
                                             <a href="#">Em busca do downtime zero.</a>
                                             <a href="#">Guia completo Indicadores da Manutenção.</a>
                                             <a href="#">Ver todos</a>
 
-                                        </li> */}
+                                        </li>
                                         
-                                    {/* </ul>
+                                    </ul>
                                 </li>
                                 <li className="item-list">
                                     <a className="item-list" href="https://tractian.com/blog">Blog</a>
@@ -252,7 +259,7 @@ const Header = ()=> {
                                 </li>
                                 <li className="item-list btn-demonstracao">
                                     <a href="https://tractian.com/">Demonstração</a>
-                                </li> */}
+                                </li>
 
                                
                                 {/* <li class="">
@@ -268,6 +275,7 @@ const Header = ()=> {
                                 {/* <li class="">
                                 <a class="">Disabled</a>
                                 </li> */}
+                                </div>
                             </ul>
                         </ul>
                 </nav>

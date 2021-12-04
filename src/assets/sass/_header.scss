@@ -54,6 +54,13 @@ header {
         // display: none;
 
       }
+      .fechado {
+        display: none;
+      }
+      .aberto {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     .logo {
