@@ -187,7 +187,7 @@ const Header = ()=> {
                                             <a href="https://tractian.com/planos">Planos</a>
                                         </li>
                                         <li>
-                                            <a href="#">Agende uma Demonstração</a>
+                                            <a href="/">Agende uma Demonstração</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -224,10 +224,10 @@ const Header = ()=> {
                                             <a href="https://tractian.com/calculadora">Calculadora ROI</a>
                                         </li>
                                         <li>
-                                            <a href="#">ÚLTIMOS MATERIAIS</a>
-                                            <a href="#">Em busca do downtime zero.</a>
-                                            <a href="#">Guia completo Indicadores da Manutenção.</a>
-                                            <a href="#">Ver todos</a>
+                                            <a href="/">ÚLTIMOS MATERIAIS</a>
+                                            <a href="/">Em busca do downtime zero.</a>
+                                            <a href="/">Guia completo Indicadores da Manutenção.</a>
+                                            <a href="/">Ver todos</a>
 
                                         </li>
                                         
