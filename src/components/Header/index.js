@@ -152,16 +152,19 @@ const Header = ()=> {
                 <nav class="menu-mobile">
                         <ul class="">
                             <ul>
-                                <li>
-                                    <a href="/" >
-                                        <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
-                                    </a>
-                                </li>
-                                <li>
-                                  <div onClick={menuMobile}>
-                                    <GiHamburgerMenu/>
-                                  </div>
-                                </li>
+                                <ul className={menu ? "fechado" : "aberto"}>
+                                  <li>
+                                      <a href="/" >
+                                          <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                                      </a>
+                                  </li>
+                                  <li>
+                                    <div onClick={menuMobile}>
+                                      <GiHamburgerMenu/>
+                                    </div>
+                                  </li>
+
+                                </ul>
                                 <div className={menu ? "aberto" : "fechado"}>
                                 <li>
                                   <a href="/">
