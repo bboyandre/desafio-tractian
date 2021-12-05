@@ -10,6 +10,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (max-width: 700px) {
+      padding: 20px;
+    }
+
     .monitoramento-animacao {
         width: 100%;
         min-width: 200px;
@@ -30,13 +34,17 @@
     }
     
     .box-monitoramento {
-        height: 38vh;
+        // height: 38vh;
         margin-top: 20vh;
         display: flex;
         justify-content: space-between;
         // align-items: center;
         flex-direction: column;
         // border: 1px solid red;
+
+        .margin-b {
+          margin-bottom: 15px;
+        }
         
     }
     

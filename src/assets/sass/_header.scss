@@ -12,14 +12,19 @@ header {
     display: flex;
     justify-content: center;
     z-index: 3;
-
     
     .header-container {
       max-width: 1536px;
       width: 100%;
       margin-left: 50px;
       margin-right: 50px;
+
+      @media (max-width: 700px) {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
+
     
     .item-list {
       color: white;
@@ -31,6 +36,10 @@ header {
     }
 
     .menu-mobile {
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: white;
       @media (min-width: 1024px) {
         display: none;
       }
@@ -46,7 +55,7 @@ header {
       li div:hover {
         background-color:darkgrey;
       }
-      ul ul {
+      ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,7 +69,11 @@ header {
       }
       .aberto {
         display: flex;
-        flex-direction: column;
+        width: 100%;
+
+        .hamburguer-menu {
+          float: right;
+        }
       }
     }
 
@@ -69,7 +82,7 @@ header {
     }
     .menu-desktop {
       
-      ul ul {
+      ul {
           display: flex;
           justify-content: space-between;
           align-items: center;
