@@ -95,9 +95,9 @@ const ManutecaoPreventiva = ()=> {
                 </div>
                 
                 <div className="box-manutencao">
-                    {dinamico == 1 ? sensorPlug():''}
-                    {dinamico == 2 ? monitoramentoOnline():''}
-                    {dinamico == 3 ? gestaoDeAtivos():''}
+                    {dinamico === 1 ? sensorPlug():''}
+                    {dinamico === 2 ? monitoramentoOnline():''}
+                    {dinamico === 3 ? gestaoDeAtivos():''}
                 </div>
             </div>
         </section>

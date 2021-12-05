@@ -1,9 +1,10 @@
 import React from "react";
-import { GrHostMaintenance } from 'react-icons/gr';
 
 const Because = ()=> {
     return (
         <div className="because">
+          <div className="because-container">
+
             <h1>Por que escolher a <strong>Tractian?</strong></h1>
             <div className="cards">
                 <div className="card">
@@ -47,6 +48,7 @@ const Because = ()=> {
             <div className="row-agora">
                 <button className="btn-agora">Começar agora!</button>
             </div>
+          </div>
         </div>
     )
 }

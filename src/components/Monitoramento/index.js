@@ -31,7 +31,7 @@ const Monitoramento = ()=> {
                         
                             <p>
                                 Já é cliente?
-                                    <a>
+                                    <a href="/">
                                         <strong>Acesse aqui.</strong>
                                     </a>
                             </p>
@@ -41,7 +41,7 @@ const Monitoramento = ()=> {
                 <div className="col-6 img-monitoramento">
                     <img className="monitoramento-animacao" src="/img/animacao.svg" alt="Monitoramento Online" />
                 </div>
-                <img src="/img/ondas.svg" class="ondas" />
+                <img src="/img/ondas.svg" class="ondas" alt="Imagem de ondas"/>
             </div>
         </section>
     )

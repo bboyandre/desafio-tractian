@@ -2,6 +2,7 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    justify-content: center;
     padding: 50px;
     flex-direction: row;
     font-family: Poppins,sans-serif;
@@ -39,7 +40,7 @@
             margin: 0 auto;
             // overflow: hidden;
 
-            @media(max-width: 950px) {
+            @media(max-width: 1023px) {
                 width: 100%;
             }
 
