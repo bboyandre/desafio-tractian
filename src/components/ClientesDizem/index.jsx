@@ -6,11 +6,11 @@ const ClientesDizem = () => (
       <h1>O que os nossos clientes dizem:</h1>
     </div>
     <div>
-      <img src="https://tractian.com/images/capterra-badge.png" />
+      <img src="https://tractian.com/images/capterra-badge.png" alt="Capterra Shortlist 2021" />
       <p>
         Nomeada solução favorita de CMMS e OEE no ranking da Capterra 2021
       </p>
-      <button>Agendar demo</button>
+      <button type="button">Agendar demo</button>
     </div>
     <div className="card-cliente">
       Conteudo dinamico
