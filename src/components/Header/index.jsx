@@ -147,9 +147,10 @@ const Header = () => {
               </div>
             </li>
           </ul>
-        {/* </nav>
-        <nav className=""> */}
-          <div className={menu ? 'aberto' : 'fechado'}>
+        </nav>
+
+        <nav className={menu ? 'aberto' : 'fechado'}>
+          <ul className="topo-mobile-container">
             <ul className="topo-mobile">
               <li>
                 <a href="/">
@@ -160,7 +161,7 @@ const Header = () => {
                 <GrClose style={{ cursor: 'pointer' }} color="white" />
               </li>
             </ul>
-            <ul>
+            <ul className="lista-topo-mobile">
               <li className="item-list">
                 <span className="item-list" href="/">
                   Conheça o Produto
@@ -259,11 +260,11 @@ const Header = () => {
 
                 </ul>
               </li>
-              <li className="item-list btn-demonstracao">
+              <li className="btn-demonstracao-mobile">
                 <a href="https://tractian.com/">Demonstração</a>
               </li>
             </ul>
-          </div>
+          </ul>
         </nav>
       </div>
     </header>
