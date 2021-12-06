@@ -12,7 +12,7 @@ const ManutecaoPreventiva = () => {
   const sensorPlug = () => (
     <article className="conteudo-dinamico">
       <div className="img-dinamico">
-        <img className="img-sensor" style={{ maxWidth: '400px' }} src="https://imgix.tractian.com/images/cole-o-sensor.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+        <img className="img-sensor" src="https://imgix.tractian.com/images/cole-o-sensor.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
       </div>
       <div>
         <h4>

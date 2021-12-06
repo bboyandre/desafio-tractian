@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={blackHeader ? 'black' : ''}>
+    <header className={blackHeader ? 'black' : ''+ ' ' + 'header'}>
       <div className="header-container">
         <nav className="menu-desktop">
           <div className="">
@@ -130,47 +130,37 @@ const Header = () => {
               <li className="item-list btn-demonstracao">
                 <a href="https://tractian.com/">Demonstração</a>
               </li>
-              {/* <li class="">
-                                <a class="" href="#">
-
-                                </a>
-                                <ul class="">
-                                    <li><a class="" href="#">Action</a></li>
-                                    <li><a class="" href="#">Another action</a></li>
-                                    <li><a class="" href="#">Something else here</a></li>
-                                </ul>
-                                </li> */}
-              {/* <li class="">
-                                <a class="">Disabled</a>
-                                </li> */}
             </ul>
           </div>
         </nav>
 
         <nav className="menu-mobile">
-          <ul className="">
-            <ul className={menu ? 'fechado' : 'aberto'}>
+          <ul className={menu ? 'fechado' : 'aberto' + ' ' + 'alinhamento-lateral'}>
+            <li>
+              <a href="/">
+                <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+              </a>
+            </li>
+            <li>
+              <div role="button" tabIndex={0} className="hamburguer-menu" onClick={menuMobile}>
+                <GiHamburgerMenu />
+              </div>
+            </li>
+          </ul>
+        {/* </nav>
+        <nav className=""> */}
+          <div className={menu ? 'aberto' : 'fechado'}>
+            <ul className="topo-mobile">
               <li>
                 <a href="/">
-                  <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
-                </a>
-              </li>
-              <li>
-                <div role="button" tabIndex={0} className="hamburguer-menu" onClick={menuMobile}>
-                  <GiHamburgerMenu />
-                </div>
-              </li>
-
-            </ul>
-            <div className={menu ? 'aberto' : 'fechado'}>
-              <li>
-                <a href="/">
-                  <img src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
+                  <img className="logo" src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
                 </a>
               </li>
               <li onClick={menuMobile}>
                 <GrClose style={{ cursor: 'pointer' }} color="white" />
               </li>
+            </ul>
+            <ul>
               <li className="item-list">
                 <span className="item-list" href="/">
                   Conheça o Produto
@@ -272,8 +262,8 @@ const Header = () => {
               <li className="item-list btn-demonstracao">
                 <a href="https://tractian.com/">Demonstração</a>
               </li>
-            </div>
-          </ul>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
