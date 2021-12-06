@@ -15,7 +15,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "next"
+    "start": "next",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.4.0",
     "eslint-config-airbnb": "19.0.2",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
