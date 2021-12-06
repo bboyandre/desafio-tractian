@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={blackHeader ? 'black' + ' ' + 'header' : ''+ ' ' + 'header'}>
+    <header className={blackHeader ? 'black header' : 'header'}>
       <div className="header-container">
         <nav className="menu-desktop">
           <div className="">
@@ -135,7 +135,7 @@ const Header = () => {
         </nav>
 
         <nav className="menu-mobile">
-          <ul className={menu ? 'fechado' : 'aberto' + ' ' + 'alinhamento-lateral'}>
+          <ul className={menu ? 'fechado' : 'aberto alinhamento-lateral'}>
             <li>
               <a href="/">
                 <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
