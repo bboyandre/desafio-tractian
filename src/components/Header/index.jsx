@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={blackHeader ? 'black' : ''+ ' ' + 'header'}>
+    <header className={blackHeader ? 'black' + ' ' + 'header' : ''+ ' ' + 'header'}>
       <div className="header-container">
         <nav className="menu-desktop">
           <div className="">
