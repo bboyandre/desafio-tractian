@@ -9,7 +9,7 @@ import Melhore from '../components/Melhore';
 import Footer from '../components/Footer';
 
 const App = () => (
-  <div>
+  <>
     <Header />
     <Monitoramento />
     <SlideMarcas />
@@ -18,7 +18,7 @@ const App = () => (
     <MaquinasSeguras />
     <Melhore />
     <Footer />
-  </div>
+  </>
 );
 
 export default App;
