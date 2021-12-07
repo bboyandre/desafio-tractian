@@ -48,7 +48,7 @@ const Because = () => (
         </div>
       </div>
       <div className="row-agora">
-        <button className="btn-agora">Começar agora!</button>
+        <button type="button" className="btn-agora">Começar agora!</button>
       </div>
     </div>
   </div>

@@ -19,7 +19,7 @@ const NovidadesTime = () => (
         TRACTIAN é nomeada solução favorita de CMMS e OEE no ranking da Capterra 2021
       </p>
       <div>linha horizontal</div>
-      <a href="#">
+      <a href="/">
         Ir para o blog
         <HiOutlineArrowRight />
       </a>
@@ -31,7 +31,7 @@ const NovidadesTime = () => (
       <p>
         Confira as posições abertas e venha fazer parte de um time de alta performance
       </p>
-      <a href="#">
+      <a href="/">
         Veja nossas vagas
         <HiOutlineArrowRight />
       </a>
@@ -39,3 +39,5 @@ const NovidadesTime = () => (
     </article>
   </section>
 );
+
+export default NovidadesTime;

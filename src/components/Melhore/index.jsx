@@ -10,35 +10,35 @@ const Melhore = () => (
         Preencha o formulário para uma demonstração.
       </p>
       <form>
-        <label>Nome</label>
-        <input placeholder="Insira seu nome" />
-        <label>Cargo</label>
-        <input placeholder="Insira seu cargo" />
-        <label>E-mail profissional</label>
-        <input placeholder="Insira seu e-mail profissional" />
-        <label>Telefone</label>
-        <input placeholder="(xx) xxxx-xxxx" />
-        <label>Quantidade de pontos monitorados:</label>
+        <span>Nome</span>
+        <input type="text" placeholder="Insira seu nome" />
+        <span>Cargo</span>
+        <input type="text" placeholder="Insira seu cargo" />
+        <span>E-mail profissional</span>
+        <input type="text" placeholder="Insira seu e-mail profissional" />
+        <span>Telefone</span>
+        <input ype="text" placeholder="(xx) xxxx-xxxx" />
+        <span>Quantidade de pontos monitorados:</span>
         <ul>
           <li>
             <input type="checkbox" />
-            <label>10 a 20</label>
+            <span>10 a 20</span>
           </li>
           <li>
             <input type="checkbox" />
-            <label>21 a 30</label>
+            <span>21 a 30</span>
           </li>
           <li>
             <input type="checkbox" />
-            <label>31 a 50</label>
+            <span>31 a 50</span>
           </li>
           <li>
             <input type="checkbox" />
-            <label>Mais de 50</label>
+            <span>Mais de 50</span>
           </li>
         </ul>
         <div>
-          <button className="btn-enviar">Enviar</button>
+          <button type="button" className="btn-enviar">Enviar</button>
         </div>
       </form>
     </div>

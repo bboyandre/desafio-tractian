@@ -16,7 +16,7 @@ const Monitoramento = () => (
 
           <ul className="row-btn margin-b">
             <li className="">
-              <button className="btn-demonstracao">
+              <button type="button" className="btn-demonstracao">
                 Demonstração
               </button>
             </li>

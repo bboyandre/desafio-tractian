@@ -142,7 +142,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <div role="button" tabIndex={0} className="hamburguer-menu" onClick={menuMobile}>
+              <div role="button" tabIndex={0} className="hamburguer-menu" onClick={menuMobile} aria-hidden="true">
                 <GiHamburgerMenu />
               </div>
             </li>
@@ -157,7 +157,7 @@ const Header = () => {
                   <img className="logo" src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
                 </a>
               </li>
-              <li onClick={menuMobile}>
+              <li type="button" onClick={menuMobile} aria-hidden="true">
                 <GrClose style={{ cursor: 'pointer' }} color="white" />
               </li>
             </ul>

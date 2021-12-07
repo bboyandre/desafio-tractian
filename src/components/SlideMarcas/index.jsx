@@ -32,8 +32,8 @@ const SlideMarcas = () => {
   return (
     <section className="slide-marcas">
       <div className="slide-interno-maior">
-        {marcas.map((i, index) => (
-          <div key={index} className="slide-row">
+        {marcas.map((i) => (
+          <div className="slide-row">
             <img src={i} alt="SLIDE" />
           </div>
         ))}
