@@ -1,7 +1,8 @@
 {
   "extends": [
     "airbnb",
-    "airbnb/hooks"
+    "airbnb/hooks",
+    "next"
   ],
   "rules": {
     "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
@@ -13,7 +14,9 @@
       "labelAttributes": ["label"],
       "controlComponents": ["CustomInput"],
       "depth": 3
-    }]
+    }],
+    "no-nonoctal-decimal-escape": "error",
+    "no-unsafe-optional-chaining": ["error", { "disallowArithmeticOperators": "true" }]
   },
   "env": {
     "browser": true
