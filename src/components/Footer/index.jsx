@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => (
   <footer>
@@ -87,8 +88,8 @@ const Footer = () => (
             INVESTIDOS POR
           </h3>
           <div className="investidos">
-            <img src="img/logo-ycombinator-branca.png" alt="Y Combinator" />
-            <img src="img/logo-dfg-branca.png" alt="DFG Investimentos" />
+            <Image layout="fill" src="/img/logo-ycombinator-branca.png" alt="Y Combinator" />
+            <Image layout="fill" src="/img/logo-dfg-branca.png" alt="DFG Investimentos" />
           </div>
         </div>
         <div className="footer-lista-final">
@@ -96,9 +97,9 @@ const Footer = () => (
             RECONHECIMENTO
           </h3>
           <div className="reconhecimento">
-            <img src="img/logo-gptw.png" alt="GPTW" />
-            <img src="img/logo-stw.png" alt="STW" />
-            <img src="img/capterra-badge.png" alt="Capterra" />
+            <Image layout="fill" src="/img/logo-gptw.png" alt="GPTW" />
+            <Image layout="fill" src="/img/logo-stw.png" alt="STW" />
+            <Image layout="fill" src="/img/capterra-badge.png" alt="Capterra" />
           </div>
         </div>
         <div className="footer-lista-final">
@@ -107,16 +108,16 @@ const Footer = () => (
           </h3>
           <div className="conectar">
             <a href="https://www.linkedin.com/company/tractian/" target="_blank" rel="noreferrer">
-              <img src="img/linkedin.png" alt="LINKEDIN" />
+              <Image layout="fill" src="/img/linkedin.png" alt="LINKEDIN" />
             </a>
             <a href="https://www.facebook.com/tractian" target="_blank" rel="noreferrer">
-              <img src="img/facebook.png" alt="FACEBOOK" />
+              <Image layout="fill" src="/img/facebook.png" alt="FACEBOOK" />
             </a>
             <a href="https://www.instagram.com/tractian/" target="_blank" rel="noreferrer">
-              <img src="img/instagram.png" alt="INSTAGRAM" />
+              <Image layout="fill" src="/img/instagram.png" alt="INSTAGRAM" />
             </a>
             <a href="https://www.youtube.com/c/TRACTIAN" target="_blank" rel="noreferrer">
-              <img src="img/youtube.png" alt="YOUTUBE" />
+              <Image layout="fill" src="/img/youtube.png" alt="YOUTUBE" />
             </a>
           </div>
           <div>

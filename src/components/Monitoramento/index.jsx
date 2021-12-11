@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Monitoramento = () => (
@@ -21,7 +22,7 @@ const Monitoramento = () => (
               </button>
             </li>
             <li className="icon-capterra">
-              <img src="" alt="CAPTERRA" />
+              {/* <Image layout="fill" src="" alt="CAPTERRA" /> */}
             </li>
 
           </ul>
@@ -36,9 +37,9 @@ const Monitoramento = () => (
         </div>
       </div>
       <div className="col-6 img-monitoramento">
-        <img className="monitoramento-animacao" src="/img/animacao.svg" alt="Monitoramento Online" />
+        <Image layout="fill" className="monitoramento-animacao" src="/img/animacao.svg" alt="Monitoramento Online" />
       </div>
-      <img src="/img/ondas.svg" className="ondas" alt="Imagem de ondas" />
+      <Image layout="fill" src="/img/ondas.svg" className="ondas" alt="Imagem de ondas" />
     </div>
   </section>
 );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const SlideMarcas = () => {
   const marcas = [
@@ -32,9 +33,9 @@ const SlideMarcas = () => {
   return (
     <section className="slide-marcas">
       <div className="slide-interno-maior">
-        {marcas.map((i) => (
-          <div className="slide-row">
-            <img src={i} alt="SLIDE" />
+        {marcas.map((i, index) => (
+          <div key={String(index)} className="slide-row">
+            <Image layout="fill" src={i} alt="SLIDE" />
           </div>
         ))}
       </div>

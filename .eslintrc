@@ -16,7 +16,7 @@
       "depth": 3
     }],
     "no-nonoctal-decimal-escape": "error",
-    "no-unsafe-optional-chaining": ["error", { "disallowArithmeticOperators": "true" }]
+    "no-unsafe-optional-chaining": ["error", { "disallowArithmeticOperators": true }]
   },
   "env": {
     "browser": true

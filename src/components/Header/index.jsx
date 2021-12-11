@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { GrClose } from 'react-icons/gr';
+import Image from 'next/image';
 
 const Header = () => {
   const [blackHeader, setBlackHeaader] = useState(false);
@@ -34,7 +35,7 @@ const Header = () => {
             <ul className="">
               <li>
                 <a href="/">
-                  <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                  <Image layout="fill" className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
                 </a>
               </li>
               <li className="item-list">
@@ -138,7 +139,7 @@ const Header = () => {
           <ul className={menu ? 'fechado' : 'aberto alinhamento-lateral'}>
             <li>
               <a href="/">
-                <img className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
+                <Image layout="fill" className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
               </a>
             </li>
             <li>
@@ -154,7 +155,7 @@ const Header = () => {
             <ul className="topo-mobile">
               <li>
                 <a href="/">
-                  <img className="logo" src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
+                  <Image layout="fill" className="logo" src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
                 </a>
               </li>
               <li type="button" onClick={menuMobile} aria-hidden="true">

@@ -35,7 +35,7 @@ const NovidadesTime = () => (
         Veja nossas vagas
         <HiOutlineArrowRight />
       </a>
-      <img src="https://imgix.tractian.com/images/leo-e-mih.png?auto=format&fit=max&w=640" alt="Faça parte do time!" />
+      <Image layout="fill" src="https://imgix.tractian.com/images/leo-e-mih.png?auto=format&fit=max&w=640" alt="Faça parte do time!" />
     </article>
   </section>
 );
