@@ -45,7 +45,13 @@ const ManutecaoPreventiva = () => {
   const gestaoDeAtivos = () => (
     <article className="conteudo-dinamico">
       <div className="img-dinamico">
-        <Image layout="fill" className="img-sensor" style={{ maxWidth: '100%' }} src="https://imgix.tractian.com/trac-os/automacoes-e-metricas.png?auto=format&fit=max&w=640" alt="Sensor Plug & Play" />
+        <Image
+          layout="fill"
+          className="img-sensor"
+          style={{ maxWidth: '100%' }}
+          src="https://imgix.tractian.com/trac-os/automacoes-e-metricas.png?auto=format&fit=max&w=640"
+          alt="Sensor Plug & Play"
+        />
       </div>
       <div>
         <h4>

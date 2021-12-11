@@ -3,6 +3,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { GrClose } from 'react-icons/gr';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   const [blackHeader, setBlackHeaader] = useState(false);
@@ -34,9 +35,9 @@ const Header = () => {
           <div className="">
             <ul className="">
               <li>
-                <a href="/">
+                <Link href="/" passHref>
                   <Image layout="fill" className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
-                </a>
+                </Link>
               </li>
               <li className="item-list">
                 <span className="item-list" href="/">
@@ -45,19 +46,19 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/sensor-tractian">Sensor Tractian</a>
+                    <Link href="https://tractian.com/sensor-tractian">Sensor Tractian</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/plataforma">Plataforma</a>
+                    <Link href="https://tractian.com/plataforma">Plataforma</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/funcionalidades">Funcionalidades</a>
+                    <Link href="https://tractian.com/funcionalidades">Funcionalidades</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/planos">Planos</a>
+                    <Link href="https://tractian.com/planos">Planos</Link>
                   </li>
                   {/* <li>
-                                            <a href="#">Agende uma Demonstração</a>
+                                            <Link href="#">Agende uma Demonstração</Link>
                                         </li> */}
                 </ul>
               </li>
@@ -68,19 +69,19 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/sobre">Conheça a Tractian</a>
+                    <Link href="https://tractian.com/sobre">Conheça a Tractian</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/casos-de-sucesso">Hitórias de Sucesso</a>
+                    <Link href="https://tractian.com/casos-de-sucesso">Hitórias de Sucesso</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/contato">Contato</a>
+                    <Link href="https://tractian.com/contato">Contato</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/carreiras/quem-somos">Trabalhe Conosco</a>
+                    <Link href="https://tractian.com/carreiras/quem-somos">Trabalhe Conosco</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/imprensa">Imprensa</a>
+                    <Link href="https://tractian.com/imprensa">Imprensa</Link>
                   </li>
                 </ul>
               </li>
@@ -91,45 +92,45 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/guias">Guias</a>
+                    <Link href="https://tractian.com/guias">Guias</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/checklists">Checklist</a>
+                    <Link href="https://tractian.com/checklists">Checklist</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/calculadora">Calculadora ROI</a>
+                    <Link href="https://tractian.com/calculadora">Calculadora ROI</Link>
                   </li>
                 </ul>
               </li>
               <li className="item-list">
-                <a className="item-list" href="https://tractian.com/blog">Blog</a>
+                <Link className="item-list" href="https://tractian.com/blog">Blog</Link>
               </li>
               <li className="item-list">
-                <a className="item-list" target="_blank" rel="noreferrer" href="https://app.tractian.com/login">Área do Cliente</a>
+                <Link className="item-list" target="_blank" rel="noreferrer" href="https://app.tractian.com/login">Área do Cliente</Link>
               </li>
               <li className="item-list">
-                <a className="" href="/">
+                <Link className="" href="/" passHref>
                   PT
                   <MdKeyboardArrowDown />
-                </a>
+                </Link>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/guias">PT</a>
+                    <Link href="https://tractian.com/guias">PT</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/checklists">EN</a>
+                    <Link href="https://tractian.com/checklists">EN</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/calculadora">ES</a>
+                    <Link href="https://tractian.com/calculadora">ES</Link>
                   </li>
                   <li>
-                    <a href="/">PL</a>
+                    <Link href="/">PL</Link>
                   </li>
 
                 </ul>
               </li>
               <li className="item-list btn-demonstracao">
-                <a href="https://tractian.com/">Demonstração</a>
+                <Link href="https://tractian.com/">Demonstração</Link>
               </li>
             </ul>
           </div>
@@ -138,9 +139,9 @@ const Header = () => {
         <nav className="menu-mobile">
           <ul className={menu ? 'fechado' : 'aberto alinhamento-lateral'}>
             <li>
-              <a href="/">
+              <Link href="/" passHref>
                 <Image layout="fill" className="logo" src="/img/logo-tractian.svg" alt="TRACTIAN" />
-              </a>
+              </Link>
             </li>
             <li>
               <div role="button" tabIndex={0} className="hamburguer-menu" onClick={menuMobile} aria-hidden="true">
@@ -154,9 +155,9 @@ const Header = () => {
           <ul className="topo-mobile-container">
             <ul className="topo-mobile">
               <li>
-                <a href="/">
+                <Link href="/" passHref>
                   <Image layout="fill" className="logo" src="https://tractian.com/images/logotractianazul.svg" alt="LOGO TRACTIAN" />
-                </a>
+                </Link>
               </li>
               <li type="button" onClick={menuMobile} aria-hidden="true">
                 <GrClose style={{ cursor: 'pointer' }} color="white" />
@@ -170,19 +171,19 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/sensor-tractian">Sensor Tractian</a>
+                    <Link href="https://tractian.com/sensor-tractian">Sensor Tractian</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/plataforma">Plataforma</a>
+                    <Link href="https://tractian.com/plataforma">Plataforma</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/funcionalidades">Funcionalidades</a>
+                    <Link href="https://tractian.com/funcionalidades">Funcionalidades</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/planos">Planos</a>
+                    <Link href="https://tractian.com/planos">Planos</Link>
                   </li>
                   <li>
-                    <a href="/">Agende uma Demonstração</a>
+                    <Link href="/">Agende uma Demonstração</Link>
                   </li>
                 </ul>
               </li>
@@ -193,19 +194,19 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/sobre">Conheça a Tractian</a>
+                    <Link href="https://tractian.com/sobre">Conheça a Tractian</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/casos-de-sucesso">Hitórias de Sucesso</a>
+                    <Link href="https://tractian.com/casos-de-sucesso">Hitórias de Sucesso</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/contato">Contato</a>
+                    <Link href="https://tractian.com/contato">Contato</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/carreiras/quem-somos">Trabalhe Conosco</a>
+                    <Link href="https://tractian.com/carreiras/quem-somos">Trabalhe Conosco</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/imprensa">Imprensa</a>
+                    <Link href="https://tractian.com/imprensa">Imprensa</Link>
                   </li>
                 </ul>
               </li>
@@ -216,53 +217,53 @@ const Header = () => {
                 </span>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/guias">Guias</a>
+                    <Link href="https://tractian.com/guias">Guias</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/checklists">Checklist</a>
+                    <Link href="https://tractian.com/checklists">Checklist</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/calculadora">Calculadora ROI</a>
+                    <Link href="https://tractian.com/calculadora">Calculadora ROI</Link>
                   </li>
                   <li>
-                    <a href="/">ÚLTIMOS MATERIAIS</a>
-                    <a href="/">Em busca do downtime zero.</a>
-                    <a href="/">Guia completo Indicadores da Manutenção.</a>
-                    <a href="/">Ver todos</a>
+                    <Link href="/">ÚLTIMOS MATERIAIS</Link>
+                    <Link href="/">Em busca do downtime zero.</Link>
+                    <Link href="/">Guia completo Indicadores da Manutenção.</Link>
+                    <Link href="/">Ver todos</Link>
 
                   </li>
 
                 </ul>
               </li>
               <li className="item-list">
-                <a className="item-list" href="https://tractian.com/blog">Blog</a>
+                <Link className="item-list" href="https://tractian.com/blog">Blog</Link>
               </li>
               <li className="item-list">
-                <a className="item-list" target="_blank" rel="noreferrer" href="https://app.tractian.com/login">Área do Cliente</a>
+                <Link className="item-list" target="_blank" rel="noreferrer" href="https://app.tractian.com/login">Área do Cliente</Link>
               </li>
               <li className="item-list">
-                <a className="" href="/">
+                <Link className="" href="/" passHref>
                   PT
                   <MdKeyboardArrowDown />
-                </a>
+                </Link>
                 <ul className="list-content">
                   <li>
-                    <a href="https://tractian.com/guias">PT</a>
+                    <Link href="https://tractian.com/guias">PT</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/checklists">EN</a>
+                    <Link href="https://tractian.com/checklists">EN</Link>
                   </li>
                   <li>
-                    <a href="https://tractian.com/calculadora">ES</a>
+                    <Link href="https://tractian.com/calculadora">ES</Link>
                   </li>
                   <li>
-                    <a href="/">PL</a>
+                    <Link href="/">PL</Link>
                   </li>
 
                 </ul>
               </li>
               <li className="btn-demonstracao-mobile">
-                <a href="https://tractian.com/">Demonstração</a>
+                <Link href="https://tractian.com/">Demonstração</Link>
               </li>
             </ul>
           </ul>

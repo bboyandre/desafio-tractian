@@ -12,7 +12,14 @@ const Because = () => (
       <div className="cards">
         <div className="card">
           <div>
-            <Image width={80} height={70} layout="intrinsic" className="img-because" src="https://imgix.tractian.com/images/icon-maintence-plataform.svg?auto=format&fit=max&w=96" alt="Manutenção Preditiva" />
+            <Image
+              width={80}
+              height={70}
+              layout="intrinsic"
+              className="img-because"
+              src="https://imgix.tractian.com/images/icon-maintence-plataform.svg?auto=format&fit=max&w=96"
+              alt="Manutenção Preditiva"
+            />
           </div>
           <h3><strong>Manutenção Preditiva</strong></h3>
           <p>
@@ -21,7 +28,14 @@ const Because = () => (
         </div>
         <div className="card">
           <div>
-            <Image width={80} height={70} layout="intrinsic" className="img-because" src="https://imgix.tractian.com/images/icon-maintence-online.svg?auto=format&fit=max&w=96" alt="Monitoramento Online" />
+            <Image
+              width={80}
+              height={70}
+              layout="intrinsic"
+              className="img-because"
+              src="https://imgix.tractian.com/images/icon-maintence-online.svg?auto=format&fit=max&w=96"
+              alt="Monitoramento Online"
+            />
           </div>
           <h3><strong>Manutenção Preditiva</strong></h3>
           <p>
@@ -40,7 +54,14 @@ const Because = () => (
         </div>
         <div className="card">
           <div>
-            <Image width={80} height={70} layout="intrinsic" className="img-because" src="https://imgix.tractian.com/images/icon-maintence-horimeter.svg?auto=format&fit=max&w=96" alt="CMMS Integrado" />
+            <Image
+              width={80}
+              height={70}
+              layout="intrinsic"
+              className="img-because"
+              src="https://imgix.tractian.com/images/icon-maintence-horimeter.svg?auto=format&fit=max&w=96"
+              alt="CMMS Integrado"
+            />
           </div>
           <h3><strong>Manutenção Preditiva</strong></h3>
           <p>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Monitoramento = () => (
@@ -29,9 +30,9 @@ const Monitoramento = () => (
 
           <p>
             Já é cliente?
-            <a href="/">
+            <Link href="/" passHref>
               <strong>Acesse aqui.</strong>
-            </a>
+            </Link>
           </p>
 
         </div>
