@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 
@@ -19,10 +21,10 @@ const NovidadesTime = () => (
         TRACTIAN é nomeada solução favorita de CMMS e OEE no ranking da Capterra 2021
       </p>
       <div>linha horizontal</div>
-      <a href="/">
+      <Link href="/" passHref>
         Ir para o blog
         <HiOutlineArrowRight />
-      </a>
+      </Link>
     </article>
     <article className="time">
       <h1>
@@ -31,11 +33,11 @@ const NovidadesTime = () => (
       <p>
         Confira as posições abertas e venha fazer parte de um time de alta performance
       </p>
-      <a href="/">
+      <Link href="/" passHref>
         Veja nossas vagas
         <HiOutlineArrowRight />
-      </a>
-      <img src="https://imgix.tractian.com/images/leo-e-mih.png?auto=format&fit=max&w=640" alt="Faça parte do time!" />
+      </Link>
+      <Image layout="fill" src="https://imgix.tractian.com/images/leo-e-mih.png?auto=format&fit=max&w=640" alt="Faça parte do time!" />
     </article>
   </section>
 );

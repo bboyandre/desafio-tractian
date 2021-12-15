@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ClientesDizem = () => (
   <section className="clientes-dizem">
@@ -6,7 +7,7 @@ const ClientesDizem = () => (
       <h1>O que os nossos clientes dizem:</h1>
     </div>
     <div>
-      <img src="https://tractian.com/images/capterra-badge.png" alt="Capterra Shortlist 2021" />
+      <Image layout="responsive" src="https://tractian.com/images/capterra-badge.png" alt="Capterra Shortlist 2021" />
       <p>
         Nomeada solução favorita de CMMS e OEE no ranking da Capterra 2021
       </p>
